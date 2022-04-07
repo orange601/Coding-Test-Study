@@ -96,3 +96,9 @@ class Solution {
 }
 
 ````
+
+1. 자료구조 변경 list > set
+2. Set
+  - 중복허용 X
+3. TreeSet 오름차순정렬, 중복X
+4. HashSet > LinkedHashSet > TreeSet 순서로 성능의 차이가 있음
