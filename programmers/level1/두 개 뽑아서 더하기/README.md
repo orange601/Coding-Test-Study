@@ -48,9 +48,15 @@ class Solution {
 
 ### 문제로 보이는 것들 ###
 
-1. Collections를 통한 정렬
-    - 성능이슈는 없을까
+1. Collections.sort를 통한 정렬
+    - 성능이슈는 없을까    
+      > Collections.sort 레거시로 합병정렬과 Tim 정렬을 사용, Tim 정렬은 삽입(Insertion) 정렬과 합병(Merge) 정렬을 결합하여 만든 정렬
+      > Tim sort에 대해 알아보자 : https://d2.naver.com/helloworld/0315536
+
     - 다른 정렬을 사용하면 어떨까
+
+
+
 
 2. ArrayList를 굳이 사용해야되나
     - 다른 자료구조는 없을까? LinkedList, TreeSet 등등
