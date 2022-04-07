@@ -52,7 +52,7 @@ class Solution {
     - 성능이슈
       + 편의를 위해 라이브러리를 통한 sort 기능을 사용하기 위해서는 2가지가 생각나는데 Collections.sort와 Arrays.sort 이다.
       + Arrays.sort()는 Dual-Pivot Quicksort를 사용
-      + java 7부터는 별도로 설정하지 않는 경우 TimSort만 적용된다.
+      + java 7부터는 별도로 설정하지 않는 경우 TimSort만 적용된다. https://javanitto.tistory.com/7
       + Collections.sort()는 merge sort와 insert sort를 합친 timsort를 사용
       + Collections.sort 레거시로 합병정렬과 Tim 정렬을 사용, Tim 정렬은 삽입(Insertion) 정렬과 합병(Merge) 정렬을 결합하여 만든 정렬
       + Tim sort에 대해 알아보자 : https://d2.naver.com/helloworld/0315536
