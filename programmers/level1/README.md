@@ -46,6 +46,15 @@ class Solution {
 
 ````
 
+### 문제로 보이는 것들 ###
+
+1. Collections를 통한 정렬
+    - 성능이슈는 없을까
+    - 다른 정렬을 사용하면 어떨까
+
+2. ArrayList를 굳이 사용해야되나
+    - 다른 자료구조는 없을까? LinkedList, TreeSet 등등
+
 ### 다른 사람의 풀이 확인 후 다시풀이 ###
 
 ````java
