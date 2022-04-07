@@ -75,7 +75,7 @@ import java.util.TreeSet;
 
 class Solution {
     public int[] solution(int[] numbers) {
-        Set<Integer> sumNumber = new TreeSet();
+        Set<Integer> sumNumber = new TreeSet<>();
 
         for(int i = 0; i < numbers.length-1; i++){
             for(int j = i+1; j < numbers.length; j++){
@@ -85,7 +85,7 @@ class Solution {
 
         int[] answer = new int[sumNumber.size()];
         int index = 0;
-        Iterator itor = sumNumber.iterator();
+        Iterator<Integer> itor = sumNumber.iterator();
         while(itor.hasNext()){
             answer[index] = (int)itor.next();
             index++;
