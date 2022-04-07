@@ -6,7 +6,7 @@
 - https://programmers.co.kr/
 - https://www.acmicpc.net/
 
-## 정보 ##
+## 순서 ##
 
 NO | LV | 제목 | 출처
 ---- | ---- | ---- | ----
