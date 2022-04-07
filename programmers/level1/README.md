@@ -8,10 +8,45 @@
   - numbers의 모든 수는 0 이상 100 이하입니다.
 
 ### point ###
-  - 중복제거
-  - 정렬
+  - 서로 다른 인덱스 -> 같은 원소 연산 X
+  - 만들 수 있는 모든 수 -> 중복제거
+  - 오름차순 -> 정렬
 
 ### 풀이 ###
+
+````java
+
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Collections;
+
+class Solution {
+    public int[] solution(int[] numbers) {
+        List<Integer> sums = new ArrayList<>();
+        
+        for(int i = 0; i < numbers.length -1; i++) {
+          for(int j = i + 1; j < numbers.length; j++) {
+            int sum = numbers[i] + numbers[j];
+            if(!sums.contains(sum)) {
+              sums.add(sum);
+            }
+          }
+        }
+        
+        Collections.sort(sums);
+        
+        int answer[] = new int[sums.size()];
+        for(int i = 0; i < sums.size(); i++){
+            answer[i] = sums.get(i);
+        }
+        
+        return answer;
+    }
+}
+
+````
+
+### 다른 사람의 풀이 확인 후 다시풀이 ###
 
 ````java
 
