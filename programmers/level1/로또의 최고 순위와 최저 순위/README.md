@@ -51,3 +51,34 @@ class Solution {
     }
 }
 ````
+
+
+### 다른 풀이 참조 ###
+````java
+import java.util.HashMap;
+import java.util.Map;
+
+class Solution {
+    public int[] solution(int[] lottos, int[] win_nums) {	
+		int maxcnt = 0;
+		int minicnt = 0;
+		
+		for(int num : lottos) {
+			if(num <= 0) {
+				maxcnt++;
+			}
+			
+			for(int win : win_nums) {
+				if(num == win) {
+					maxcnt++;
+					minicnt++;
+				}
+			}
+		}
+		
+		int standard = 7;
+		int[] answer = {standard- maxcnt, Math.min(standard - minicnt, 6)};
+        return answer;
+    }
+}
+````
