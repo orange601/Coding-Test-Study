@@ -10,3 +10,44 @@ lottos | win_nums | result
 [44, 1, 0, 0, 31, 25] | [31, 10, 45, 1, 6, 19] | [3, 5]
 [0, 0, 0, 0, 0, 0] | [38, 19, 20, 40, 15, 25] | [1, 6]
 [45, 4, 35, 20, 3, 9] | [20, 9, 3, 45, 4, 35] | [1, 1]
+
+
+### 풀이 ###
+````java
+import java.util.HashMap;
+import java.util.Map;
+
+class Solution {
+    public int[] solution(int[] lottos, int[] win_nums) {
+        Map<Integer, Integer> map = new HashMap<>();
+        map.put(6, 1);
+        map.put(5, 2);
+        map.put(4, 3);
+        map.put(3, 4);
+        map.put(2, 5);
+        map.put(1, 6);
+        map.put(0, 6);
+
+        int maxcnt = 0;
+        int minicnt = 0;
+        for(int i = 0; i < lottos.length; i++) {
+            int num = lottos[i];
+            // 0 개수
+            if(num <= 0) {
+                maxcnt++;
+            }
+            for(int j = 0; j < win_nums.length; j++) {
+                int win = win_nums[j];
+                if(num == win) {
+                    maxcnt++;
+                    minicnt++;
+                }
+            }
+        }
+
+
+        int[] answer = {map.get(maxcnt), map.get(minicnt)};
+        return answer;
+    }
+}
+````
