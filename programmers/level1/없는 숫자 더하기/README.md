@@ -20,18 +20,16 @@ import java.util.List;
 class Solution {
     public int solution(int[] numbers) {
         List<Integer> list = new ArrayList<>();
-		for(int number : numbers) {
-			list.add(number);
-		}
+	for(int number : numbers) {
+		list.add(number);
+	}
 		
-		int answer = 0;
-		// 기준
-		for(int i = 1; i < 10; i++) {
-			// 원소
-			if(!list.contains(i)) {
-				answer += i;
-			}
+	int answer = 0;
+	for(int i = 1; i < 10; i++) {
+		if(!list.contains(i)) {
+			answer += i;
 		}
+	}
         return answer;
     }
 }
