@@ -14,39 +14,24 @@ numbers | result
 
 ### 풀이 ###
 ````java
-import java.util.HashMap;
-import java.util.Map;
+import java.util.ArrayList;
+import java.util.List;
 
 class Solution {
-    public int[] solution(int[] lottos, int[] win_nums) {
-        Map<Integer, Integer> map = new HashMap<>();
-        map.put(6, 1);
-        map.put(5, 2);
-        map.put(4, 3);
-        map.put(3, 4);
-        map.put(2, 5);
-        map.put(1, 6);
-        map.put(0, 6);
-
-        int maxcnt = 0;
-        int minicnt = 0;
-        for(int i = 0; i < lottos.length; i++) {
-            int num = lottos[i];
-            // 0 개수
-            if(num <= 0) {
-                maxcnt++;
-            }
-            for(int j = 0; j < win_nums.length; j++) {
-                int win = win_nums[j];
-                if(num == win) {
-                    maxcnt++;
-                    minicnt++;
-                }
-            }
-        }
-
-
-        int[] answer = {map.get(maxcnt), map.get(minicnt)};
+    public int solution(int[] numbers) {
+        List<Integer> list = new ArrayList<>();
+		for(int number : numbers) {
+			list.add(number);
+		}
+		
+		int answer = 0;
+		// 기준
+		for(int i = 1; i < 10; i++) {
+			// 원소
+			if(!list.contains(i)) {
+				answer += i;
+			}
+		}
         return answer;
     }
 }
@@ -55,29 +40,13 @@ class Solution {
 
 ### 다른 풀이 참조 ###
 ````java
-import java.util.HashMap;
-import java.util.Map;
-
 class Solution {
-    public int[] solution(int[] lottos, int[] win_nums) {	
-	int maxcnt = 0;
-	int minicnt = 0;
-	for(int num : lottos) {
-		if(num <= 0) {
-			maxcnt++;
-		}
-			
-		for(int win : win_nums) {
-			if(num == win) {
-				maxcnt++;
-				minicnt++;
-			}
-		}
-	}
-		
-	int standard = 7;
-	int[] answer = {standard- maxcnt, Math.min(standard - minicnt, 6)};
-        return answer;
+    public int solution(int[] numbers) {
+        int sum = 45;
+        for (int i : numbers) {
+            sum -= i;
+        }
+        return sum;
     }
 }
 ````
