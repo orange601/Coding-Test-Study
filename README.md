@@ -2,14 +2,14 @@
 코딩테스트 알고리즘 문제풀이
 
 ## 코딩테스트 사이트 ##
-프로그래머스   
-  - https://programmers.co.kr/
-코드업
-  - https://www.codeup.kr/
-백준
-  - https://www.acmicpc.net/
-코딩테스트깃헙
-  - https://github.com/CodeTest-StudyGroup/Code-Test-Study
++ 프로그래머스   
+    - https://programmers.co.kr/
++ 코드업
+    - https://www.codeup.kr/
++ 백준
+    - https://www.acmicpc.net/
++ 코딩테스트깃헙
+    - https://github.com/CodeTest-StudyGroup/Code-Test-Study
 
 ## 순서 ##
 
