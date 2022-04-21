@@ -22,4 +22,4 @@ NO | LV | 제목 | 출처 | 풀이
 5 | 1 | 숫자 문자열과 영단어 | 프로그래머스 | [풀이](https://github.com/orange601/Coding-Test-Study/blob/main/programmers/level1/%EC%88%AB%EC%9E%90%20%EB%AC%B8%EC%9E%90%EC%97%B4%EA%B3%BC%20%EC%98%81%EB%8B%A8%EC%96%B4/README.md)
 6 | 1 | 없는 숫자 더하기 | 프로그래머스 | [풀이](https://github.com/orange601/Coding-Test-Study/blob/main/programmers/level1/%EC%97%86%EB%8A%94%20%EC%88%AB%EC%9E%90%20%EB%8D%94%ED%95%98%EA%B8%B0/README.md)
 7 | 1 | K번째수 | 프로그래머스 | [풀이](https://github.com/orange601/Coding-Test-Study/tree/main/programmers/level1/K%EB%B2%88%EC%A7%B8%EC%88%98)
-8 | 1 | 아직안함 | 프로그래머스 | [풀이]()
+8 | 1 |  | 프로그래머스 | [풀이]()
