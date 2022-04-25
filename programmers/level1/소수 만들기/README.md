@@ -27,13 +27,13 @@ class Solution {
                 if(sum % m == 0) {
                   cnt++;
                  }
-					    }
-					    if(cnt == 2) {
+	      }
+	      if(cnt == 2) {
                 answer++;
-					    }
-				  }
-			  }
-		  }
+	      }
+	    }
+	  }
+	}
       return answer;
     }
 }
