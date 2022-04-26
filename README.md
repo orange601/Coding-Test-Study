@@ -23,3 +23,4 @@ NO | LV | 제목 | 출처 | 풀이
 6 | 1 | 없는 숫자 더하기 | 프로그래머스 | [풀이](https://github.com/orange601/Coding-Test-Study/blob/main/programmers/level1/%EC%97%86%EB%8A%94%20%EC%88%AB%EC%9E%90%20%EB%8D%94%ED%95%98%EA%B8%B0/README.md)
 7 | 1 | K번째수 | 프로그래머스 | [풀이](https://github.com/orange601/Coding-Test-Study/tree/main/programmers/level1/K%EB%B2%88%EC%A7%B8%EC%88%98)
 8 | 1 | 소수 구하기 | 프로그래머스 | [풀이](https://github.com/orange601/Coding-Test-Study/blob/main/programmers/level1/%EC%86%8C%EC%88%98%20%EB%A7%8C%EB%93%A4%EA%B8%B0/README.md)
+9 | 1 | yet | 프로그래머스 | [풀이]()
