@@ -31,28 +31,11 @@ class Solution {
 
 ### 다른 풀이 참고 ###
 ````java
-import java.util.Arrays;
+import java.util.stream.IntStream;
 
 class Solution {
-    public int solution(int[] nums) {
-        int ans = 0;
-        for(int i = 0; i < nums.length - 2; i ++){
-            for(int j = i + 1; j < nums.length - 1; j ++){
-                for(int k = j + 1; k < nums.length; k ++ ){
-                    if(isPrime(nums[i] + nums[j] + nums[k])){
-                        ans += 1;  
-                    } 
-                }
-            }
-        }
-        return ans;
-    }
-    public Boolean isPrime(int num){
-        int cnt = 0;
-        for(int i = 1; i <= (int)Math.sqrt(num); i ++){ // sqrt => 제곱근(루트)
-            if(num % i == 0) cnt += 1; 
-        }
-        return cnt == 1;
+    public int solution(int n) {
+        return IntStream.range(2, n).filter(i -> n % i == 1).findFirst().orElse(0);
     }
 }
 ````
