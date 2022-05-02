@@ -24,4 +24,4 @@ NO | LV | 제목 | 출처 | 풀이
 7 | 1 | K번째수 | 프로그래머스 | [풀이](https://github.com/orange601/Coding-Test-Study/tree/main/programmers/level1/K%EB%B2%88%EC%A7%B8%EC%88%98)
 8 | 1 | 소수 구하기 | 프로그래머스 | [풀이](https://github.com/orange601/Coding-Test-Study/blob/main/programmers/level1/%EC%86%8C%EC%88%98%20%EB%A7%8C%EB%93%A4%EA%B8%B0/README.md)
 9 | 1 | 나머지가 1이 되는 수 찾기 | 프로그래머스 | [풀이](https://github.com/orange601/Coding-Test-Study/blob/main/programmers/level1/%EB%82%98%EB%A8%B8%EC%A7%80%EA%B0%80%201%EC%9D%B4%20%EB%90%98%EB%8A%94%20%EC%88%98%20%EC%B0%BE%EA%B8%B0/README.md)
-10 | 1 | yet | 프로그래머스 | [풀이]()
+10 | 1 | 예산 | 프로그래머스 | [풀이](https://github.com/orange601/Coding-Test-Study/blob/main/programmers/level1/%EC%98%88%EC%82%B0/README.md)
