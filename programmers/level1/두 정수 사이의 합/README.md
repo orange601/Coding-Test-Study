@@ -62,3 +62,35 @@ class Solution {
 - 등차수열의 합을 이용한 풀이
 - 등차수열의 합 = n(a + L) / 2 
 - 항의개수 n, 첫째항 a, 마지막항 L
+
+
+## 내가 풀었던 방식으로 풀기위해선 ##
+### 첫번째 예 ###
+````java
+class Solution {
+  public long solution(int a, int b) {
+      long answer = 0;
+      for (int i = ((a < b) ? a : b); i <= ((a < b) ? b : a); i++) 
+          answer += i;
+
+      return answer;
+  }
+}
+````
+### 두번째 예 ###
+````java
+class Solution {
+  public long solution(int a, int b) {
+      long answer = 0;
+
+        int start = Math.min(a, b);
+        int end = Math.max(a, b);
+
+        for (int i = start; i <= end; i++) {
+            answer += i;
+        }
+
+        return answer;
+  }
+}
+````
