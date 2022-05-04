@@ -29,4 +29,4 @@ NO | LV | 제목 | 출처 | 풀이
 
 
 ## 현타가 심하게 오는 문제 추천 ##
-- [두사이의 정수](https://github.com/orange601/Coding-Test-Study/tree/main/programmers/level1/%EB%91%90%20%EC%A0%95%EC%88%98%20%EC%82%AC%EC%9D%B4%EC%9D%98%20%ED%95%A9)
+- [두 정수 사이의 합](https://github.com/orange601/Coding-Test-Study/tree/main/programmers/level1/%EB%91%90%20%EC%A0%95%EC%88%98%20%EC%82%AC%EC%9D%B4%EC%9D%98%20%ED%95%A9)
