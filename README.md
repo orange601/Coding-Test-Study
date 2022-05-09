@@ -26,7 +26,7 @@ NO | LV | 제목 | 출처 | 풀이
 9 | 1 | 나머지가 1이 되는 수 찾기 | 프로그래머스 | [풀이](https://github.com/orange601/Coding-Test-Study/blob/main/programmers/level1/%EB%82%98%EB%A8%B8%EC%A7%80%EA%B0%80%201%EC%9D%B4%20%EB%90%98%EB%8A%94%20%EC%88%98%20%EC%B0%BE%EA%B8%B0/README.md)
 10 | 1 | 예산 | 프로그래머스 | [풀이](https://github.com/orange601/Coding-Test-Study/blob/main/programmers/level1/%EC%98%88%EC%82%B0/README.md)
 11 | 1 | 두 정수 사이의 합 | 프로그래머스 | [풀이](https://github.com/orange601/Coding-Test-Study/tree/main/programmers/level1/%EB%91%90%20%EC%A0%95%EC%88%98%20%EC%82%AC%EC%9D%B4%EC%9D%98%20%ED%95%A9)
-12 | 1 | not yet | 프로그래머스 | [풀이]()
+12 | 1 | 없는 숫자는  | 프로그래머스 | [풀이](https://github.com/orange601/Coding-Test-Study/blob/main/programmers/level1/%EC%97%86%EB%8A%94%20%EC%88%AB%EC%9E%90%EB%8A%94%20%EC%8B%AB%EC%96%B4/RemoveEqualNumbers.java)
 
 
 ## 현타가 심하게 오는 문제 추천 ##
