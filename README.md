@@ -28,7 +28,9 @@ NO | LV | 제목 | 출처 | 풀이
 11 | 1 | 두 정수 사이의 합 | 프로그래머스 | [풀이](https://github.com/orange601/Coding-Test-Study/tree/main/programmers/level1/%EB%91%90%20%EC%A0%95%EC%88%98%20%EC%82%AC%EC%9D%B4%EC%9D%98%20%ED%95%A9)
 12 | 1 | 없는 숫자는  | 프로그래머스 | [풀이](https://github.com/orange601/Coding-Test-Study/blob/main/programmers/level1/%EC%97%86%EB%8A%94%20%EC%88%AB%EC%9E%90%EB%8A%94%20%EC%8B%AB%EC%96%B4/RemoveEqualNumbers.java)
 13 | 1 | 문자열 다루기 | 프로그래머스 | [풀이](https://github.com/orange601/Coding-Test-Study/tree/main/programmers/level1/%EB%AC%B8%EC%9E%90%EC%97%B4%20%EB%8B%A4%EB%A3%A8%EA%B8%B0%20%EA%B8%B0%EB%B3%B8)
+14 | 1 | 약수의 개수와 덧셈 | 프로그래머스 | [풀이](https://github.com/orange601/Coding-Test-Study/tree/main/programmers/level1/%EC%95%BD%EC%88%98%EC%9D%98%20%EA%B0%9C%EC%88%98%EC%99%80%20%EB%8D%A7%EC%85%88)
 
 
 ## 현타가 심하게 오는 문제 추천 ##
 - [두 정수 사이의 합](https://github.com/orange601/Coding-Test-Study/tree/main/programmers/level1/%EB%91%90%20%EC%A0%95%EC%88%98%20%EC%82%AC%EC%9D%B4%EC%9D%98%20%ED%95%A9)
+- [약수의 개수와 덧셈](https://github.com/orange601/Coding-Test-Study/tree/main/programmers/level1/%EC%95%BD%EC%88%98%EC%9D%98%20%EA%B0%9C%EC%88%98%EC%99%80%20%EB%8D%A7%EC%85%88)
