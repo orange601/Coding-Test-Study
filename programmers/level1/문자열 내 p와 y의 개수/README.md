@@ -20,7 +20,6 @@ class Solution {
         int scnt = 0;
         for(int i = 0; i <= s.length()-1; i++){
             String aa = s.substring(i, i+1);
-            System.out.println(aa);
             if(aa.contains("p") || aa.contains("P")){
                 pcnt++;
             }        
@@ -28,14 +27,11 @@ class Solution {
             if(aa.contains("y") || aa.contains("Y")){
                 scnt++;
             }
-        }
-        
+        }        
         
         if(pcnt == scnt){
             answer = true;
-        }       
-        
-
+        }   
         return answer;
     }
 }
