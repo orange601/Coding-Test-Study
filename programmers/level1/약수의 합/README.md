@@ -27,11 +27,13 @@ class Solution {
 
 ### 다른 풀이 참고 ###
 ````java
-import java.util.stream.IntStream;
-
-class Solution {
-    public int solution(int n) {
-        return IntStream.range(2, n).filter(i -> n % i == 1).findFirst().orElse(0);
+class SumDivisor {
+    public int sumDivisor(int num) {
+        int answer = 0;
+            for(int i = 1; i <= num/2; i++){
+        if(num%i == 0) answer += i;
+      }
+        return answer+num;
     }
 }
 ````
