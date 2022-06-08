@@ -31,8 +31,10 @@ NO | LV | 제목 | 출처 | 풀이
 14 | 1 | 약수의 개수와 덧셈 | 프로그래머스 | [풀이](https://github.com/orange601/Coding-Test-Study/tree/main/programmers/level1/%EC%95%BD%EC%88%98%EC%9D%98%20%EA%B0%9C%EC%88%98%EC%99%80%20%EB%8D%A7%EC%85%88)
 15 | 1 | 부족한 금액 계산하기 | 프로그래머스 | [풀이](https://github.com/orange601/Coding-Test-Study/tree/main/programmers/level1/%EB%B6%80%EC%A1%B1%ED%95%9C%20%EA%B8%88%EC%95%A1%20%EA%B3%84%EC%82%B0%ED%95%98%EA%B8%B0)
 16 | 1 | 문자열 내 p와 y의 개수 | 프로그래머스 | [풀이](https://github.com/orange601/Coding-Test-Study/tree/main/programmers/level1/%EB%AC%B8%EC%9E%90%EC%97%B4%20%EB%82%B4%20p%EC%99%80%20y%EC%9D%98%20%EA%B0%9C%EC%88%98)
+17 | 1 | 약수의 합 | 프로그래머스 | [풀이](https://github.com/orange601/Coding-Test-Study/tree/main/programmers/level1/%EC%95%BD%EC%88%98%EC%9D%98%20%ED%95%A9)
 
 
 ## 현타가 심하게 오는 문제 추천 ##
 - [두 정수 사이의 합](https://github.com/orange601/Coding-Test-Study/tree/main/programmers/level1/%EB%91%90%20%EC%A0%95%EC%88%98%20%EC%82%AC%EC%9D%B4%EC%9D%98%20%ED%95%A9)
 - [약수의 개수와 덧셈](https://github.com/orange601/Coding-Test-Study/tree/main/programmers/level1/%EC%95%BD%EC%88%98%EC%9D%98%20%EA%B0%9C%EC%88%98%EC%99%80%20%EB%8D%A7%EC%85%88)
+- [약수의 합](https://github.com/orange601/Coding-Test-Study/tree/main/programmers/level1/%EC%95%BD%EC%88%98%EC%9D%98%20%ED%95%A9)
