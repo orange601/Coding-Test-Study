@@ -33,7 +33,7 @@ NO | LV | 제목 | 출처 | 풀이
 16 | 1 | 문자열 내 p와 y의 개수 | 프로그래머스 | [풀이](https://github.com/orange601/Coding-Test-Study/tree/main/programmers/level1/%EB%AC%B8%EC%9E%90%EC%97%B4%20%EB%82%B4%20p%EC%99%80%20y%EC%9D%98%20%EA%B0%9C%EC%88%98)
 17 | 1 | 약수의 합 | 프로그래머스 | [풀이](https://github.com/orange601/Coding-Test-Study/tree/main/programmers/level1/%EC%95%BD%EC%88%98%EC%9D%98%20%ED%95%A9)
 18 | 1 | 짝수와 홀수 | 프로그래머스 | [풀이](https://github.com/orange601/Coding-Test-Study/tree/main/programmers/level1/%EC%A7%9D%EC%88%98%EC%99%80%20%ED%99%80%EC%88%98)
-19 | 1 | 제일 작은 수 제거하기 | 프로그래머스 | [풀이]()
+19 | 1 | 제일 작은 수 제거하기 | 프로그래머스 | [풀이](https://github.com/orange601/Coding-Test-Study/tree/main/programmers/level1/%EC%A0%9C%EC%9D%BC%20%EC%9E%91%EC%9D%80%20%EC%88%98%20%EC%A0%9C%EA%B1%B0%ED%95%98%EA%B8%B0)
 
 
 ## 현타가 심하게 오는 문제 추천 ##
