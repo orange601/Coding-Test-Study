@@ -42,7 +42,7 @@ class Solution {
 ````
 
 
-### 다른 풀이 참고 ###
+### 다른 사람의 풀이 ###
 ````java
 class Solution {
     public int solution(String s) {
