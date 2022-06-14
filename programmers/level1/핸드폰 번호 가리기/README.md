@@ -16,13 +16,11 @@ phone_number |	return
 ````java
 class Solution {
     public String solution(String phone_number) {
-        // 총 개수
-		int size = phone_number.length();
-		String star = "";
-		for(int i = 0; i < size-4; i++) {
-			star += "*";
-		}
-		
+	int size = phone_number.length();
+	String star = "";
+	for(int i = 0; i < size-4; i++) {
+		star += "*";
+	}		
         return star + phone_number.substring(size-4, size);
     }
 }
