@@ -41,3 +41,4 @@ NO | LV | 제목 | 출처 | 풀이
 - [두 정수 사이의 합](https://github.com/orange601/Coding-Test-Study/tree/main/programmers/level1/%EB%91%90%20%EC%A0%95%EC%88%98%20%EC%82%AC%EC%9D%B4%EC%9D%98%20%ED%95%A9)
 - [약수의 개수와 덧셈](https://github.com/orange601/Coding-Test-Study/tree/main/programmers/level1/%EC%95%BD%EC%88%98%EC%9D%98%20%EA%B0%9C%EC%88%98%EC%99%80%20%EB%8D%A7%EC%85%88)
 - [약수의 합](https://github.com/orange601/Coding-Test-Study/tree/main/programmers/level1/%EC%95%BD%EC%88%98%EC%9D%98%20%ED%95%A9)
+- [핸드폰 번호 가리기](https://github.com/orange601/Coding-Test-Study/blob/main/programmers/level1/%ED%95%B8%EB%93%9C%ED%8F%B0%20%EB%B2%88%ED%98%B8%20%EA%B0%80%EB%A6%AC%EA%B8%B0/README.md)
