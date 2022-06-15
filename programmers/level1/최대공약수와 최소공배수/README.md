@@ -50,12 +50,24 @@ class Solution {
 ````
 
 
-### 다른 풀이 참고 ###
+### 다른 사람의 풀이1 ###
 ````java
+import java.util.Arrays;
 class Solution {
-    public long solution(long price, long money, long count) {
-        return Math.max(price * (count * (count + 1) / 2) - money, 0);
+    public int[] solution(int n, int m) {
+        return gcdlcm(n, m);
     }
-}
+    
+    static int[] gcdlcm(int a, int b) {
+        int[] answer = new int[2];
+        answer[0] = gcd(a,b);
+        answer[1] = (a*b)/answer[0];
+        return answer;
+    }
 
+   public static int gcd(int p, int q) {
+       if (q == 0) return p;
+       return gcd(q, p%q);
+   }
+}
 ````
