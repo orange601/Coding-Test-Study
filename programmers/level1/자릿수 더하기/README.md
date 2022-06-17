@@ -35,7 +35,7 @@ public class Solution {
         int answer = 0;
 
         while(true){
-            answer+=n%10;
+            answer+=n%10; // 나머지가 차례로 3, 2, 1 이 
             if(n<10)
                 break;
 
