@@ -34,12 +34,12 @@ public class Solution {
     public int solution(int n) {
         int answer = 0;
 
-        while(true){
+        while(n > 0){
             answer+=n%10; // 나머지가 차례로 3, 2, 1 이 나옴
-            if(n<10)
+            if(n < 10)
                 break;
 
-            n=n/10;
+            n=n/10; // 차례로 12, 1 이 나옴
         }
         return answer;
     }
