@@ -8,6 +8,7 @@
 
 ### 입출력 예 ###
 s | return
+---- | ----
 "try hello world" | "TrY HeLlO WoRlD"
 
 ### 풀이 ###
