@@ -42,6 +42,7 @@ NO | LV | 제목 | 출처 | 풀이
 24 | 1 | 이상한 문자 만들기 | 프로그래머스 | [풀이](https://github.com/orange601/Coding-Test-Study/tree/main/programmers/level1/%EC%9D%B4%EC%83%81%ED%95%9C%20%EB%AC%B8%EC%9E%90%20%EB%A7%8C%EB%93%A4%EA%B8%B0)
 25 | 1 | x만큼 간격이 있는 n개의 숫자 | 프로그래머스 | [풀이](https://github.com/orange601/Coding-Test-Study/tree/main/programmers/level1/x%EB%A7%8C%ED%81%BC%20%EA%B0%84%EA%B2%A9%EC%9D%B4%20%EC%9E%88%EB%8A%94%20n%EA%B0%9C%EC%9D%98%20%EC%88%AB%EC%9E%90)
 
+
 <!--
 ## 꼭 다시 풀어야 하는 추천 문제! ##
 - [두 정수 사이의 합](https://github.com/orange601/Coding-Test-Study/tree/main/programmers/level1/%EB%91%90%20%EC%A0%95%EC%88%98%20%EC%82%AC%EC%9D%B4%EC%9D%98%20%ED%95%A9)
